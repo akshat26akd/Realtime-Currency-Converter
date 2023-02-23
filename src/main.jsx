@@ -6,7 +6,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import './index.css'
-import CurrencyProvider from './context/CurrencyContext';
+import CurrencyProvider from './Context/CurrencyContext';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
