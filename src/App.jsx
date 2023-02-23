@@ -4,7 +4,7 @@ import { useContext, useEffect, useState } from 'react'
 import InputAmount from './Components/InputAmount'
 import SelectCountry from './Components/SelectCountry'
 import SwitchCurrency from './Components/SwitchCurrency'
-import { CurrencyContext } from './context/CurrencyContext'
+import { CurrencyContext } from "./Components/CurrencyContext";
 
 function App() {
   const {
